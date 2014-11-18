@@ -5,13 +5,11 @@ layout: default
 <div class="grid-two-thirds float-center">
 <h1> What we are </h1>
 
-The Institute for Parafunctional Exploration exists entirely as an amorphous establishment. It runs in tandem with everything because of its presence as nothing.
-Started in the ___ month of year ___, IPE is a branch of College de 'Pataphysique that is housed in Chicago.
-Your existence in our non-existent institution is appreciated. IPE may be something that is nothing at all, but it's also a very real place to find and collaborate with people who share these interests.
+The Institute for Parafunctional Exploration takes the common functionality of an object or system and completely disregards it in order to reach conclusions and discoveries based off profound insight into alternative modes of perception and recognition. Whether through paradigms, fields of research, or methods of communication, IPE looks beyond conventions and the obvious and into new realms – or reimagines old ones.  
 
 <br><br>
 <ul>
-{% for post in site.posts %}
+{% for post in site.posts reversed %}
 	{% if post.category == "about" %}
 	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
 	{% endif %}
@@ -20,6 +18,5 @@ Your existence in our non-existent institution is appreciated. IPE may be someth
 <br><br><br>
 <strong>Here</strong> is a list of further resources.
 <br>
-:thumbsup:
 
 </div>

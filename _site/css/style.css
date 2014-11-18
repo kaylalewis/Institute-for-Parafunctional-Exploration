@@ -1,7 +1,7 @@
-header, h1, h2{
+header, h1, h2, header{
 
 	font-family: "Book Antiqua";
-	font-size:2em;
+	font-size:1.7em;
 	font-style: none;
 }
 
@@ -12,19 +12,24 @@ a, p, footer
 	font-size: 14px;
 }
 
-header {
 
-	font-size: 2em;
-	margin: 20px;
+
+header {
+font-family:"Geneva";
+font-size:2em;
+margin: 25px;
+margin-bottom: 50px;
+
+
 }
 body {
-    
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    margin: 40px;
-}
 
+}
+.mainImg
+{
+
+    margin: 50px;
+}
 .mainParagraphs
 {
 
@@ -55,4 +60,8 @@ a:hover {
 /* selected link */
 a:active {
     color: #0000FF;
+}
+
+footer {
+margin-top: 500px;
 }

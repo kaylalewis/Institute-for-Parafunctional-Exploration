@@ -1,0 +1,13 @@
+auto: true
+destination: instituteforparafunctionalexploration.com
+url: http://instituteforparafunctionalexploration.com
+markdown: kramdown
+highlighter: true
+
+permalink: /:categories/:title
+
+--- # Categories
+- about
+
+gems:
+- jemoji

@@ -5,15 +5,57 @@ header, h1, h2, header{
 	font-style: none;
 }
 
-a, p, footer 
+a, p, footer, #popupbox 
 {
 
 	font-family:"Geneva";
 	font-size: 14px;
 }
+#formLog{
+color: gray;
+
+}
+
+#popupbox{
+position: fixed;
+padding-top: 10px; 
+width: 20%; 
+height: 250px; 
+margin-top:100px;
+margin-left: 500px;
+background: #FBFBF0;  
+z-index: 9; 
+visibility: hidden;
+color: gray;
+}
+
+.this {
+
+	border-style: none;
+}
+
+#loginClass {
+
+	background: gray;
+}
+
+#formBox {
 
 
+font-family: "Book Antiqua";
+width: 400px;
+height: 250px; 
+background: #FBFBF0;   
+color: gray;
 
+}
+
+#submitButton {
+
+width: 100px;
+
+
+}
 header {
 font-family:"Geneva";
 font-size:2em;
@@ -25,12 +67,15 @@ margin-top: 50px;
 body {
 
 }
-.mainImg
+#mainImg
 {
-
-    margin: 50px;
+position:fixed;
+margin:0px;
+margin-top: 50px;
+visibility: visible;
 }
-.mainParagraphs
+
+#mainParagraphs
 {
 
 	margin-right: 500px;

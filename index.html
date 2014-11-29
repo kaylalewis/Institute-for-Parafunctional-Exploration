@@ -2,6 +2,30 @@
 layout: main
 ---
 
+
+<script type = "text/javascript">
+function login(showhide){
+if(showhide == "show"){
+document.getElementById('popupbox').style.visibility="visible";
+}
+
+document.getElementById("mainImg").style.visibility="hidden";
+
+}
+</script>
+
+<div id="popupbox" class="grid-fourth float-center">
+<form name="login" action="whoarewe.html">
+Username:<br>
+<input class="this" name="text" name="username">
+<br>
+Password:<br>
+<input class="this" type="text" name="password">
+<input id="loginClass" type="submit" name="submit" value="login">
+</form>
+<a id="formLog" href="member.html">become a member</a>
+</div>
+
 <div class="grid-two-thirds float-center">
-<a href="whoarewe.html"><img class="mainImg" src="/img/spiral.png"></a>
-</div
+<a href="javascript:login('show');"><img id="mainImg" onclick="login" src="/img/spiral.png"></a>
+</div>

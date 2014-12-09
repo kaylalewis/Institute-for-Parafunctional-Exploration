@@ -19,7 +19,17 @@ The Institute for Parafunctional Exploration takes the common functionality of a
 <h1> Projects </h1>
 
 Our members are may find a home for their <a href="projects">projects</a> via IPE. We host any range of creations. The more outlandish, the merrier.
+<br><br>
+<div class="row">
+{% for post in site.posts %}
+				 {% if post.category == "projects" %}
 
+				 <div class="grid-img">
+				 <p><a href="{{ post.url }}"><img src="{{ post.image }}"></a></p>
+				 </div>
+					{% endif %}
+				{% endfor %}
+</div>
 <br><br><br>
 <h1> Social </h1>
 

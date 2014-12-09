@@ -5,7 +5,7 @@ header, h1, h2, header{
 	font-style: none;
 }
 
-a, p, footer, #popupbox 
+a, p, footer, #popupbox, form, body 
 {
 
 	font-family:"Geneva";
@@ -121,6 +121,9 @@ ul {
 }
 
 
+
+
 footer {
 margin-top: 500px;
 }
+

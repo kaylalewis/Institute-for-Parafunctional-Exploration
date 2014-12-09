@@ -1,15 +1,20 @@
 
 header {
 font-family:"Book Antiqua", serif;
-font-size:2.5em;
+font-size:32px;
 margin-bottom: 50px;
 margin-top: 50px;
 text-align: center;
 color: #606060;
 
 
+
 }
 
+.titleIt {
+
+	color: #7b30fc;
+}
 h1, h2{
 
 	font-family: "Book Antiqua", serif;
@@ -88,6 +93,18 @@ width: 100px;
 
 }
 
+.spiral {
+float: center;
+
+}
+
+#thanks
+{
+
+	text-align: center;
+	margin: 10px;
+}
+
 body {
 
 }
@@ -96,7 +113,7 @@ body {
 
 float: center;
 margin:0px;
-margin-top: -250px;
+margin-top: -300px;
 visibility: visible;
 }
 
@@ -113,15 +130,23 @@ h1 {
 }
 
 
-a {
+.who {
     color: #e768ff;
     text-decoration: none;
 
 }
 
-/* visited link */
-a:visited {
-    color: #e768ff ;
+.projects {
+	color:#8fffff;
+
+}
+
+.social {
+color:#e59556;
+}
+
+.finally {
+color:#7b30fc;
 }
 
 /* mouse over link */
@@ -145,6 +170,7 @@ ul {
 
 	font-size: 1.2em;
 	margin-bottom: 20px;
+	color:#e59556;
 }
 
 

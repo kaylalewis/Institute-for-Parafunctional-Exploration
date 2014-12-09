@@ -11,35 +11,35 @@ The Institute for Parafunctional Exploration takes the common functionality of a
 <ul>
 {% for post in site.posts reversed %}
 	{% if post.category == "about" %}
-	<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+	<li><a class="who" href="{{ post.url }}">{{ post.title }}</a></li>
 	{% endif %}
 	{% endfor %}
 </ul>
-here.
-<br>
-<h1 class="projects"> Projects </h1>
 
-Our members are may find a home for their <a href="projects">projects</a> via IPE. We host any range of creations. The more outlandish, the merrier.
+<br>
+<h1> Projects </h1>
+
+Our members are may find a home for their <a class="projects" href="projects">projects</a> via IPE. We host any range of creations. The more outlandish, the merrier.
 <br><br>
 <div class="row">
 {% for post in site.posts %}
 				 {% if post.category == "projects" %}
 
 				 <div class="grid-img">
-				 <p><a href="{{ post.url }}"><img src="{{ post.image }}"></a></p>
+				 <p><a class="projects" href="{{ post.url }}"><img src="{{ post.image }}"></a></p>
 				 </div>
 					{% endif %}
 				{% endfor %}
 </div>
 <br><br><br>
-<h1 class="socialize"> Social </h1>
+<h1> Social </h1>
 
-IPE hosts constant cyber communication, and occasional human-to-human events. Keep up with the latest announcements and conversation <a href="social">here</a>.
+IPE hosts constant cyber communication, and occasional human-to-human events. Keep up with the latest announcements and conversation <a class="social" href="social">here</a>.
 
 <br><br><br>
-<h1 class="finally"> And finally </h1>
+<h1> And finally </h1>
 Wondering what inspires institutions like IPE?<br>
-<a href="resources">Here</a> is a list of further resources.
+<a class="finally" href=>Here</a> is a list of further resources.
 <br>
 
 </div>

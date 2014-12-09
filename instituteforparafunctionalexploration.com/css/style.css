@@ -1,6 +1,6 @@
 header, h1, h2, header{
 
-	font-family: "Book Antiqua";
+	font-family: "Book Antiqua", serif;
 	font-size:1.7em;
 	font-style: none;
 }
@@ -8,7 +8,7 @@ header, h1, h2, header{
 a, p, footer, #popupbox, form, body 
 {
 
-	font-family:"Geneva";
+	font-family:"Geneva", sans-serif;
 	font-size: 14px;
 }
 #formLog{
@@ -17,16 +17,16 @@ color: gray;
 }
 
 #popupbox{
-position: fixed;
+
 padding-top: 10px; 
 width: 20%; 
 height: 250px; 
 margin-top:100px;
-margin-left: 500px;
 background: #FBFBF0;  
-z-index: 9; 
 visibility: hidden;
-color: gray;
+color: #FF00FF;
+
+
 }
 
 .this {
@@ -36,13 +36,13 @@ color: gray;
 
 #loginClass {
 
-	background: gray;
+	background: #FF00FF;
 }
 
 #formBox {
 
 
-font-family: "Book Antiqua";
+font-family: "Book Antiqua", serif;
 width: 400px;
 height: 250px; 
 background: #FBFBF0;   
@@ -57,7 +57,7 @@ width: 100px;
 
 }
 header {
-font-family:"Geneva";
+font-family:"Geneva", sans-serif;
 font-size:2em;
 margin-bottom: 50px;
 margin-top: 50px;
@@ -69,9 +69,10 @@ body {
 }
 #mainImg
 {
-position:fixed;
+
+float: center;
 margin:0px;
-margin-top: 50px;
+margin-top: -250px;
 visibility: visible;
 }
 

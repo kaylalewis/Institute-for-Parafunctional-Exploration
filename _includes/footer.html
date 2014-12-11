@@ -1,7 +1,9 @@
-<div class="grid-full float-center">
+<div class="grid-third float-center">
+
 
     <footer>
-      @2014 Kayla Lewis and Michael J Fox
+        <button class="btn" onclick="goBack()"><img src="/img/spiralSmall2.png"></button><br>
+      @2014 Kayla Lewis
     </footer>
 </div>
 
@@ -15,6 +17,9 @@
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
+            function goBack() {
+    window.history.back()
+}
         </script>
 
     </body>

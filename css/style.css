@@ -1,15 +1,42 @@
 
 header {
-
-background-color: #585858;
 margin-bottom: 50px;
-padding-top: 20px;
-
-
+padding-bottom: 75px;
+text-align: center;
+font-size: 72px;
+color: white;
+padding-top: 75px;
+margin-top:-50px;
+font-family: 'Book Antiqua', serif;
+background-color: #585858 ;
+width:100%;
+z-index: 1;
+position: relative;
+font-weight: 100px;
+border-bottom: 10px;
+border-style: solid;
+border-color: #90fe67 ;
+width: 100%;
 
 }
 
+.otherH {
 
+	left: 50px;
+	font-size: 24px;
+	width: 10%;
+	position: absolute;
+}
+
+.logo {
+
+
+top: 30px;
+left: 70px;
+	width: 5%;
+	z-index: 2;
+	position: absolute;
+}
 
 .titleIt {
 
@@ -17,20 +44,21 @@ padding-top: 20px;
 }
 h1, h2{
 
-	font-family: "Book Antiqua", serif;
-	font-size:1.5em;
+	font-family: "Georgia", serif;
+	font-size:1.7em;
 	font-style: none;
-	color: #d9263c;
-
+	color: #585858;
+	font-style: bold;
 
 }
 
 
-a, p, footer, #popupbox, form, body 
+a, p, footer, form, body 
 {
 
-	font-family:"Geneva", sans-serif;
-	font-size: 14px;
+	font-family:"Georgia", sans-serif;
+	font-size: 16px;
+	color: #808080;
 	
 }
 
@@ -41,27 +69,54 @@ color: #606060;
 
 }
 #formLog{
-color: #8fffff;
+color: #e768ff;
 
 }
 
 body {
 
 	background-color: #f8f8f8;
+	margin-top: 50px;
 }
 
 #popupbox{
 
 padding-top: 10px; 
 width: 20%; 
-height: 250px; 
+height: 300px; 
 margin-top:100px;
 background: #606060;  
 visibility: hidden;
-color: #e768ff;
+
 
 
 }
+
+.btn {
+
+background-color: #f8f8f8;
+border-style: none;
+}
+
+.btn:hover {
+
+	text-decoration: none;
+	background: #f8f8f8;
+	border-style: none;
+}
+
+.btn:visited {
+
+	background: #f8f8f8;
+	text-decoration: none;
+	  border-style: none;
+}
+
+.login {
+
+	color: #8fffff;
+}
+
 
 .this {
 
@@ -78,17 +133,19 @@ color: #e768ff;
 #formBox {
 
 
-font-family: "Book Antiqua", serif;
+font-family: "Georgia", serif;
 width: 400px;
 height: 250px; 
-background: #FBFBF0;   
-color: #F8F8F8;
+background: #f8f8f8;   
+color: #606060;
 
 }
 
 #submitButton {
 
 width: 100px;
+color: #8fffff ;
+background-color:#606060; 
 
 
 }
@@ -105,15 +162,12 @@ float: center;
 	margin: 10px;
 }
 
-body {
-
-}
 #mainImg
 {
 
 float: center;
 margin:0px;
-margin-top: -300px;
+margin-top: -350px;
 visibility: visible;
 }
 
@@ -130,24 +184,13 @@ h1 {
 }
 
 
-.who {
-    color: #7b30fc;
+a {
+    color: #e768ff;
     text-decoration: none;
 
-}
-
-.projects {
-	color:#7b30fc;
 
 }
 
-.social {
-color:#7b30fc;
-}
-
-.finally {
-color:#7b30fc
-}
 
 /* mouse over link */
 a:hover {
@@ -167,20 +210,26 @@ ul {
 
 .subheader
 {
-	font-family:"Book Antiqua", serif;
+	font-family:"Georgia", serif;
 	font-size: 1.2em;
 	margin-bottom: 20px;
 	color:#e59556;
 }
 
+.test {
 
+	color: #d9263c;
+}
 
 
 footer {
 
-color: #7b30fc;
+color: #e59556;
 	text-align: center;
-	margin-top: 500px;	
+	margin-top: 500px;
+	margin-bottom: 20px;	
 	position: relative;
 }
+
+
 

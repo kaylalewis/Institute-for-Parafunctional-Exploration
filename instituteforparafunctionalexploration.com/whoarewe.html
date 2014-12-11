@@ -51,9 +51,11 @@
 
 <body>
 
-<div class="grid-full float-center">
- <header><img src="/img/banner11.png"></header>
+
+<div class="float-center">
+<header>Institute for Parafunctional<br>Exploration</header>
 </div>
+
 <div class="grid-two-thirds float-center">
 <h1 class="what"> What we are </h1>
 
@@ -148,10 +150,12 @@ Wondering what inspires institutions like IPE?<br>
 
 </div>
 
-<div class="grid-full float-center">
+<div class="grid-third float-center">
+
 
     <footer>
-      @2014 Kayla Lewis and Michael J Fox
+        <button class="btn" onclick="goBack()"><img src="/img/spiralSmall2.png"></button><br>
+      @2014 Kayla Lewis
     </footer>
 </div>
 
@@ -165,10 +169,11 @@ Wondering what inspires institutions like IPE?<br>
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
+            function goBack() {
+    window.history.back()
+}
         </script>
 
     </body>
 
 </html>
-
-

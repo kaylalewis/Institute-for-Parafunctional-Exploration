@@ -51,9 +51,11 @@
 
 <body>
 
-<div class="grid-full float-center">
- <header><img src="/img/banner11.png"></header>
-</div>
+
+
+<img class= "otherH" src="/img/jerry.png">
+
+
 <script type="text/javascript">
 
 function openWindow() {
@@ -62,7 +64,7 @@ function openWindow() {
 }
 </script>
 <div id = "application" class="grid-two-thirds float-center">
-<h1> IPE Membership Application </h1>
+<h1 class="test"> IPE Membership Application </h1>
 Would you consider yourself a 'pataphysician?
 <form>
 <input type="radio" name="pata" value="yes"><span></span> Yes</label>
@@ -176,10 +178,12 @@ And finally, why is it that you’re interested in joining IPE?
 
 
 
-<div class="grid-full float-center">
+<div class="grid-third float-center">
+
 
     <footer>
-      @2014 Kayla Lewis and Michael J Fox
+        <button class="btn" onclick="goBack()"><img src="/img/spiralSmall2.png"></button><br>
+      @2014 Kayla Lewis
     </footer>
 </div>
 
@@ -193,6 +197,9 @@ And finally, why is it that you’re interested in joining IPE?
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
+            function goBack() {
+    window.history.back()
+}
         </script>
 
     </body>

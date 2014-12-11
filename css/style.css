@@ -6,7 +6,7 @@ text-align: center;
 font-size: 72px;
 color: white;
 padding-top: 75px;
-margin-top:-500px;
+margin-top:-50px;
 font-family: 'Book Antiqua', serif;
 background-color: #585858 ;
 width:100%;
@@ -17,15 +17,10 @@ border-bottom: 10px;
 border-style: solid;
 border-color: #90fe67 ;
 width: 100%;
-position: fixed;
+
 
 }
 
-.who{
-
-	margin-top: 500px;
-
-}
 
 .postWhy 
 {

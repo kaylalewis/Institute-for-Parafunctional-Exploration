@@ -20,12 +20,20 @@ width: 100%;
 
 }
 
-.otherH {
-
-	left: 50px;
-	font-size: 24px;
-	width: 10%;
+.postWhy 
+{
 	position: absolute;
+}
+
+.otherH{
+
+
+	
+	width: 30%;
+	margin-left: 30px;
+	margin-right: 50px;
+
+
 }
 
 .logo {
@@ -53,7 +61,7 @@ h1, h2{
 }
 
 
-a, p, footer, form, body 
+a, p, footer, form, body, .photocaption 
 {
 
 	font-family:"Georgia", sans-serif;
@@ -162,6 +170,8 @@ float: center;
 	margin: 10px;
 }
 
+
+
 #mainImg
 {
 
@@ -226,7 +236,7 @@ footer {
 
 color: #e59556;
 	text-align: center;
-	margin-top: 500px;
+	margin-top: 1000px;
 	margin-bottom: 20px;	
 	position: relative;
 }

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Resources
+category: page
 ---
 
 Here is a list of 'pataphysicians (and their work) that recognize their status as such and have created works to both admire and debate upon.

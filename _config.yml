@@ -9,6 +9,7 @@ permalink: /:categories/:title
 --- # Categories
 - about
 - projects
+- page
 
 gems:
 - jemoji

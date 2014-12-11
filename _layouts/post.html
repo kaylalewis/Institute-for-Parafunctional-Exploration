@@ -5,9 +5,13 @@ layout: default
 
 <div class="grid-three-fourths float-center">
 
-
+{% if page.category == "about" %}
 		<h1 class="titleIt">{{ page.title }}</h1>
+{% endif %}
 
+{% if page.category == "page" %}
+		<h1 class="titlePage">{{ page.title }}</h1>
+{% endif %}
 
 		{{ content }}
 </div>

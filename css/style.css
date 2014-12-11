@@ -6,7 +6,7 @@ text-align: center;
 font-size: 72px;
 color: white;
 padding-top: 75px;
-margin-top:-50px;
+margin-top:-500px;
 font-family: 'Book Antiqua', serif;
 background-color: #585858 ;
 width:100%;
@@ -17,12 +17,29 @@ border-bottom: 10px;
 border-style: solid;
 border-color: #90fe67 ;
 width: 100%;
+position: fixed;
+
+}
+
+.who{
+
+	margin-top: 500px;
 
 }
 
 .postWhy 
 {
 	position: absolute;
+}
+
+.titleIt{
+
+	color:#e59556;
+}
+
+.titlePage {
+
+	color: #7b30fc;
 }
 
 .otherH{
@@ -46,17 +63,13 @@ left: 70px;
 	position: absolute;
 }
 
-.titleIt {
-
-	color: #7b30fc;
-}
 h1, h2{
 
 	font-family: "Georgia", serif;
 	font-size:1.7em;
 	font-style: none;
 	color: #585858;
-	font-style: bold;
+	
 
 }
 
@@ -98,6 +111,7 @@ visibility: hidden;
 
 
 
+
 }
 
 .btn {
@@ -122,7 +136,7 @@ border-style: none;
 
 .login {
 
-	color: #8fffff;
+	color: #e768ff;
 }
 
 
@@ -234,9 +248,9 @@ ul {
 
 footer {
 
-color: #e59556;
-	text-align: center;
-	margin-top: 1000px;
+color: #8fffff;
+text-align: center;
+	margin-top: 500px;
 	margin-bottom: 20px;	
 	position: relative;
 }
